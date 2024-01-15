@@ -1,0 +1,20 @@
+ .slides {
+    margin: auto;
+    /* margin-top: 2%; */
+    width: 50vw;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px; 
+    /* background-color: rgba(72, 187, 120, 0.336); */
+}
+
+.ss{
+    margin: auto;
+    margin-top: 2%;
+    width: 50vw;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px; 
+  }

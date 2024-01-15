@@ -1,0 +1,75 @@
+.aboutpic {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  background-color: rgba(127, 255, 212, 0.288);
+  padding: 1%;
+  width:fit-content;
+}
+
+.slides {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  aspect-ratio: calc(16/9);
+  overflow: hidden;
+  border-radius: 16px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.detail {
+  width: 100%; 
+  padding: 0.5%;
+}
+
+.title {
+  text-align: center;
+  font-size:2.5vw;
+}
+
+.text{
+  text-align:start;
+  width: fit-content;
+  margin-top: 0.5%;
+  margin-left: 5%; 
+  font-size:1.5vw;
+}
+
+.comment-container {
+  position:absolute;
+  left: 5%;
+  max-height: 195px;
+  width: 95%;
+  padding: 1%;
+  overflow-y: auto; 
+  display: flex; 
+  flex-direction: row; 
+}
+
+.comment-list {
+  align-items: end;
+  position: relative;
+  width: 30vw;
+  overflow-x: auto; 
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  left: 10%;
+}
+
+.comment {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  margin-bottom: 2%;
+  margin-left: 10%;
+  text-align:start;
+}
+
+.comment-form {
+  margin-top: 1%;
+  width: 250px;
+}

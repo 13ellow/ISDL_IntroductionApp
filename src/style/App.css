@@ -1,0 +1,61 @@
+/* App.css */
+:root{
+  box-sizing: border-box;
+  width: auto;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color:whitesmoke;
+}
+
+.slideshow{
+  margin: auto;
+  margin-top: 2%;
+  width: 50vw;
+  height: 50vh;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px; 
+  background-color: rgba(72, 187, 120, 0.336);
+}
+
+.prevbutton{
+  position: relative;
+  top: 10%;
+  margin-right: 3%;
+}
+
+.nextbutton{
+  position: relative;
+  top: 10%;
+  margin-left: 3%;
+}
+
+.toAbout{
+  margin: 1%;
+}
+
+.tablist {
+  color:rgb(140, 137, 252);
+  border-radius: 4px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.tablist button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.tabpanel {
+  padding: 14px; 
+}
